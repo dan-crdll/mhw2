@@ -8,7 +8,7 @@
 .choice-grid div {
     width: calc(32.5% - 2 * 10px - 2 * 1px);
     background-color: #f4f4f4;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #dcdcdc;
 }
@@ -16,7 +16,6 @@
 .choice-grid img {
     object-fit: cover;
     width: 100%;
-    height: calc(width);
 }
 
 #result {
